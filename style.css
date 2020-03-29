@@ -1,0 +1,910 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Proxima Nova Regular';
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/*Our style*/
+
+.wrapper{
+	max-width: 1900px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+header{
+    height: 125px;
+    display: flex;
+    align-items: center;
+	background-color: #0a1720;
+}
+
+.center{
+    max-width: 1300px;
+    width: 90%;
+	margin: 0 auto;
+}
+
+header img{
+    height: 85px;
+    width: 175px;
+}
+
+header .flex_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
+}
+
+header .menu{
+    display: flex;
+}
+
+header .menu li a{
+    font-family: 'Sitka-Banner';
+    font-size: 17px;
+    color: #b5b5b5;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px 30px;
+}
+
+header .menu li a:hover{
+    background-color: #ff467f;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.container2{
+    position: relative;
+    height: 855px;
+}
+
+.container2 .owl-carousel owl-theme{
+    height: 855px;
+}
+
+.container2 .owl-theme .owl-nav{
+    position: absolute;
+    height: 65px;
+    width: 135px;
+    background-color: rgba(66, 65, 68, 0.5);
+    right: 0;
+    left: 80%;
+    top: 72%;
+}
+
+.container2 .owl-nav button.owl-prev span, .container2 .owl-nav button.owl-next span{
+    position: absolute;
+    color: #fff;
+    font-size: 50px;
+    top: 8%;
+}
+
+.container2 .block{
+    position: absolute;
+    right: 0;
+    top: 35%;
+    height: 250px;
+    width: 565px;
+    background-color: rgba(66, 65, 68, 0.5);
+    text-align: center;
+    align-items: flex-end;
+    z-index: 1;
+}
+
+.container2 .block .big_text{
+    font-family: 'Sitka-Banner';
+    text-align: left;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 45px;
+    padding-left: 30px;
+}
+
+.container2 .block .small_text{
+    font-family: 'Sitka-Banner';
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.container3{
+    height: 855px;
+    background-color: #fff;
+}
+
+.container3 .information{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container3 .information .part_one img, .container3 .information .part_three img{
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    margin-top: 300px;
+}
+
+.container3 .information .part_one p, .container3 .information .part_three p{
+    font-family: 'SnellBT_Regular';
+    font-size: 68px;
+    text-align: center;
+    line-height: 40%;
+}
+
+.container3 .information .part_one p span, .container3 .information .part_three p span{
+    font-family: 'Sitka-Banner';
+    font-size: 24px;
+}
+
+.container3 .information .part_two{
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container3 .information .part_two p.title{
+    font-family: 'Sitka-Banner';
+    font-size: 24px;
+    color: #ff467f;
+    text-transform: uppercase;
+}
+
+.container3 .information .part_two p.title span{
+    font-family: 'Sitka-Banner';
+    color: black;
+    font-size: 48px;
+    line-height: 120%;
+}
+
+.container3 .information img{
+    height: 32px;
+    width: 200px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.container3 .information .part_two p.Invitation{
+    font-family: 'SnellBT_Regular';
+    font-size: 68px;
+}
+
+.container3 .information .part_two .line{
+    position: relative;
+    height: 1.7px;
+    width: 240px;
+    background-color: #ff467f;
+    text-align: center;
+    left: 20%;
+    top: 2%;
+}
+
+.container3 .part_two h3{
+    font-family: 'Sitka-Banner';
+    text-align: center;
+    font-size: 24px;
+    line-height: 120%;
+    color: black;
+    margin-top: 40px;
+}
+
+.container3 .part_two h4{
+    font-family: 'Sitka-Banner';
+    text-align: center;
+    font-size: 38px;
+    color: #ff467f;
+    margin-top: 30px;
+}
+
+.container3 .part_two h4.date{
+    font-family: 'Roboto_Regular';
+    text-align: center;
+    font-size: 48px;
+    color: black;
+    margin-top: 22px;
+}
+
+.container3 .part_two h4.date span{
+    font-weight: 600;
+}
+
+.container3 .part_two h5{
+    font-family: 'Sitka-Banner';
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    margin-top: 22px;
+}
+
+.container3 .part_two .button li a{
+    position: relative;
+    font-family: 'Sitka-Banner';
+    font-size: 40px;
+    font-weight: 500;
+    color: #ece8e9;
+    background-color: #ff467f;
+    text-decoration: none;
+    padding: 10px 45px;
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.7);
+    top: 80px;
+    left: 10px;
+}
+
+.container3 .button li a:hover{
+    color: #fff;
+    background-color: black;
+    border-radius: 4px;
+}
+
+.container4{
+    height: 910px;
+    width: 100%;
+    background-color: #252527;
+}
+
+.container4 .top_4{
+    height: 205px;
+}
+
+.container4 .top_4 h2{
+    font-family: 'Sitka-Banner';
+    font-size: 45px;
+    text-align: center;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 24px;
+}
+
+.container4 .top_4 img{
+    height: 32px;
+    width: 200px;
+    margin-left: 45%;
+}
+
+.container4 .gallery4{
+    height: 490px;
+    width: 100%;
+    align-items: center;
+}
+
+.container4 .gallery4 .item img{
+    box-shadow: 5px 5px 12px rgba(10, 10, 10, 5);
+}
+
+.container4 .owl-theme .owl-nav{
+    position: absolute;
+    height: 65px;
+    width: 135px;
+    background-color: #923b57;
+    right: 0;
+    left: 80%;
+    top: 72%;
+}
+
+.container4 .owl-nav button.owl-prev span, .container4 .owl-nav button.owl-next span{
+    position: absolute;
+    color: #fff;
+    background-color: #923b57;
+    padding: 8px 22px;
+    font-size: 50px;
+    top: 110%;
+    margin-left: 45%;
+}
+
+.container4 .owl-nav button.owl-prev, .container4 .owl-nav button.owl-next{
+    height: 100%;
+    width: 4%;
+}
+
+.container5{
+    height: 320px;
+}
+
+.container5 h2{
+    font-family: 'Sitka-Banner';
+    font-size: 56px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.container5 img{
+    height: 32px;
+    width: 200px;
+    margin-left: 40%;
+    margin-top: 18px;
+}
+
+.container5 .center p{
+    font-family: 'Sitka-Banner';
+    font-size: 24px;
+    text-align: center;
+    margin-top: 32px;
+    line-height: 150%;
+}
+
+.container6{
+    background-image: url(./images/container6/girl.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 995px;
+    width: 100%;
+    position: relative;
+}
+
+.container6 .block{
+    position: absolute;
+    right: 0;
+    top: 38%;
+    height: 528px;
+    width: 1134px;
+    background-color: #fff;
+    text-align: center;
+    align-items: flex-end;
+    z-index: 1;
+}
+
+.container6 .block h2{
+    position: absolute;
+    font-family: 'Roboto_Medium';
+    font-size: 54px;
+    color: black;
+    padding-top: 60px;
+    margin-left: 70px;
+    font-weight: 600;
+}
+
+.container6 .block .big_text{
+    font-family: 'Sitka-Banner';
+    position: absolute;
+    text-align: left;
+    font-size: 24px;
+    color: #ff467f;
+    padding-top: 170px;
+    margin-left: 60px;
+    line-height: 120%;
+}
+
+.container6 .block .small_text{
+    font-family: 'Sitka-Banner';
+    text-align: left;
+    font-size: 24px;
+    color: black;
+    padding-top: 290px;
+    margin-left: 60px;
+    line-height: 120%;
+}
+
+.container6 .block img{
+    height: 500px;
+    width: 640px;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    border-radius: 20%;
+}
+
+.container6 .button li a{
+    position: absolute;
+    font-family: 'Sitka-Banner';
+    font-size: 25px;
+    color: #ece8e9;
+    background-color: #ff467f;
+    text-decoration: none;
+    padding: 16px 20px;
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.7);
+    bottom: 80px;
+    left: 60px;
+}
+
+.container6 .button li a:hover{
+    color: #fff;
+    background-color: black;
+    border-radius: 4px;
+}
+
+.container7{
+    height: 350px;
+}
+
+.container7 h2{
+    font-family: 'Sitka-Banner';
+    font-size: 30px;
+    text-align: center;
+    padding-top: 72px;
+}
+
+.container7 .icon{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px;
+}
+
+.container7 .icon li.white:hover, .container7 .icon li.sony:hover,
+.container7 .icon li.garden:hover, .container7 .icon li.red:hover,
+.container7 .icon li.mick:hover{
+    transform: scale(1.2);
+}
+
+.container7 .icon li.white{
+    padding: 3%;
+}
+
+footer{
+    height: 1430px;
+    margin-top: -700px;
+    z-index: 0;
+    background: linear-gradient(340deg, #e41150 32%, #fff 65%);
+}
+
+footer .center .limit{
+    display: flex;
+    justify-content: space-between;
+    max-height: 250px;
+    padding-top: 75%;
+}
+
+footer .center .limit .nav{
+    position: absolute;
+    height: 200px;
+}
+
+footer .center .limit h2{
+    font-size: 30px;
+    color:#fff;
+    padding-bottom: 30px;
+}
+
+footer .center .limit h2:hover{
+    transform: scale(1.2);
+}
+
+footer .center .limit .menu{
+    font-size: 22px;
+    color: #dad7d7;
+    line-height: 200%;
+}
+
+footer .center .limit  .part1 .menu span{
+    color: #dad7d7;
+    margin-left: 20px;
+}
+
+footer .center .limit  .part1 .menu a{
+    text-decoration: none;
+}
+
+footer .center .limit .menu li:hover{
+    color: #fff;
+    font-weight: bold;
+}
+
+footer .center .limit  .part4 .enter h3{
+    color: #8d9092;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+footer form{
+    text-align: left;
+    display: flex;
+}
+
+
+footer form input{
+	height: 55px;
+	line-height: 240px;
+	color: #7e7e7e;
+	background-color: #f0f0f0;
+	padding: 0 100px 0 10px;
+	border: none;
+	font-family: 'Sitka-Banner';
+    font-size: 18px;
+}
+
+
+footer form button{
+	background-color: #387de5;
+	color: #ffffff;
+	height: 55px;
+	line-height: 60px;
+	padding: 0 30px;
+	border: none;
+	font-family: 'Sitka-Banner';
+	font-size: 18px;
+    margin-left: -100px;
+    
+}
+footer form button:hover{
+	background-color:#ffffff;
+	color:  #0a0a0a; 
+}
+
+footer p{
+	font-family: 'Sitka-Banner';
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+    position: relative;
+    top: 150px;  
+}
+
+footer .social{
+    position: relative;
+    top: 15%;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+footer .social .icon span{
+    height: 40px;
+	width: 40px;
+	background-color: #fff;
+	border-radius: 50%;
+	text-align: center;
+    display: inline-block;
+}
+
+footer .social .icon span i{
+    margin-top: 25%;
+}
+
+footer .social .icon span.facebook{
+    color: #fff;
+    background-color: #2556a0;
+}
+
+footer .social .icon span.facebook:hover{
+    color: #2556a0;
+    background-color: #fff;
+}
+
+footer .social .icon span.twitter{
+    color: #fff;
+    background-color: #00b7eb;
+}
+
+footer .social .icon span.twitter:hover{
+    color: #00b7eb;
+    background-color: #fff;
+}
+
+footer .social .icon span.google{
+    color: #fff;
+    background-color: #fa4631;
+}
+
+footer .social .icon span.google:hover{
+    color: #fa4631;
+    background-color: #fff;
+}
+
+.center .box{
+    position: relative;
+    text-align: center;
+	height: 720px;
+	width: 930px;
+	background-color: #fff;
+	border-radius: 25px;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, .2);
+    margin-left: 250px;
+    z-index: 1;
+}
+
+.center .box .limit{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.center .box h2{
+    font-family: 'Sitka-Banner';
+    text-align: center;
+    color: #ff467f;
+    font-size: 43px;
+    padding-top: 55px;
+}
+
+.center .box .enter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.center .box .enter p{
+    font-size: 22px;
+    color: #7e7e7e;
+    background-color: #eaeaeb;
+    height: 80px;
+    width: 370px;
+    text-align: left;
+    position: relative;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+.center .box .enter p span{
+    position: relative;
+    top: 35%;
+    left: 10%;
+}
+
+.center .box .enter2 p{
+    font-size: 22px;
+    color: #7e7e7e;
+    background-color: #eaeaeb;
+    height: 320px;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    border-radius: 4px;
+    margin-top: 30px;
+} 
+
+.center .box .enter2 p span{
+    position: relative;
+    top: 15%;
+    left: 5%;
+}
+
+.center .button li a{
+    position: absolute;
+    font-family: 'Sitka-Banner';
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #ece8e9;
+    background-color: #ff467f;
+    text-decoration: none;
+    padding: 16px 20px;
+    box-shadow:  4px 6px 8px rgba(0, 0, 0, 0.7);
+    bottom: 240px;
+    left: 100px;
+}
+
+.center .button li a:hover{
+    color: #fff;
+    background-color: black;
+    border-radius: 4px;
+}
+
+
+
+@media(max-width: 1660px){
+    .container6 .block{
+    top: 3%;
+    height: 728px;
+    width: 534px;
+    }
+    .container6 .block img{
+    height: 300px;
+    width: 440px;
+    top: 50%;
+    }
+}
+
+@media(max-width: 1500px){
+    .container2{
+        position: relative;
+        height: 685px;
+    }
+    .container4{
+        height: 800px;
+    }
+    .container2 .owl-theme .owl-nav{
+        top: 80%;
+    } 
+}
+
+@media(max-width: 1320px){
+    .center{
+        max-width: 1000px;
+    }
+    .center .box{
+        height: 520px;
+        width: 730px;
+    }
+    .center .box .limit{
+        max-width: 600px;
+    }
+    .center .box .limit .enter p{
+        max-width: 250px;
+    }
+    .center .box .limit .enter2 p{
+        height: 120px;
+    }
+    .center .button li a{
+        bottom: 30px;
+    }
+}
+
+@media(max-width: 1024px){
+    .wrapper{
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .center{
+        max-width: 900px;
+    }
+    .container2{
+        height: 475px;
+    }
+    .container2 .block{
+        top: 15%;
+    }
+    .container4{
+        height: 620px;
+    }
+    .container6{
+        background-size: 100%;
+        height: 650px;
+    }
+    .container6 .block{
+        height: 550px;
+        height: 490px;
+    }
+    .container6 .block img{
+        height: 150px;
+        width: 220px;
+        top: 1%;
+    }
+    .container7 h2{
+        padding-top: 0;
+        height: 150px;
+    }
+    .container7 .icon{
+        max-width: 850px;
+        padding: 0;
+    }
+    .center .box{
+        margin-left: 20px;
+    }
+    footer .center .limit{
+        padding-top: 100%;
+    }
+    footer .center .limit h2{
+        font-size: 18px;
+    }
+    footer .center .limit .menu li{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 992px){
+    .container7 .icon img{
+        height: 95px;
+        width: 130px;
+    }
+    .container7 .icon li.white{
+        padding: 0;
+    }
+}
+
+@media(max-width: 768px){
+    header .center .burger{
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        background-color: #fff;
+    }
+    header .center .burger i{
+        width: 20px;
+        height: 4px;
+        margin: 5px;
+        background-color: #923b57;
+        display: block;
+    }
+    .container2{
+        height: 370px;
+    }
+    .container2 .owl-theme .owl-nav{
+        top: 75%;
+    }
+    .container2 .block{
+        height: 210px;
+        width: 405px;
+    }
+    .container2 .block .big_text{
+        font-size: 30px;
+    }
+    .container2 .block .small_text{
+        font-size: 22px ;
+    }
+    .container3{
+        height: 2085px;
+        width: 688px;
+    }
+    .container3 .information{
+        display: block;
+        text-align: center;
+    }
+    .container3 .information .part_one{
+        margin-top: -250px;
+    }
+    .container3 .information .part_three{
+        margin-top: -120px;
+    }
+    .container6{
+        height: 800px;
+    }
+    .container6 .block{
+        top: 50%;
+    }
+    .center{
+        margin-top: 100px;
+    }
+    .center .box{
+        width: 680px;
+    }
+    footer{
+        height: 1800px;
+    }
+    footer .center .limit{
+        display: block;
+    }
+    footer .center .limit h2{
+        font-family: 65px;
+        color: black;
+        font-weight: 900;
+    }
+    footer .center .limit .menu{
+        font-family: 40px;
+        color: #252527;
+        font-weight: 700; 
+    }
+    footer p{
+        top: 780px;
+    }  
+}
