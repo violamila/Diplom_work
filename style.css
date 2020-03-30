@@ -116,7 +116,7 @@ header .menu li a:hover{
 .container2 .owl-theme .owl-nav{
     position: absolute;
     height: 65px;
-    width: 135px;
+    width: 115px;
     background-color: rgba(66, 65, 68, 0.5);
     right: 0;
     left: 80%;
@@ -124,10 +124,11 @@ header .menu li a:hover{
 }
 
 .container2 .owl-nav button.owl-prev span, .container2 .owl-nav button.owl-next span{
-    position: absolute;
+    position: relative;
     color: #fff;
     font-size: 50px;
-    top: 8%;
+    top: 100%;
+    padding: 2px 20%;
 }
 
 .container2 .block{
@@ -663,41 +664,31 @@ footer .social .icon span.google:hover{
     justify-content: space-between;
 }
 
-.center .box .enter p{
+.center .box .enter input{
     font-size: 22px;
     color: #7e7e7e;
     background-color: #eaeaeb;
     height: 80px;
     width: 370px;
     text-align: left;
+    padding-left: 20px;
     position: relative;
     border-radius: 3px;
     margin-top: 30px;
 }
 
-.center .box .enter p span{
-    position: relative;
-    top: 35%;
-    left: 10%;
-}
-
-.center .box .enter2 p{
+.center .box .enter2 input{
     font-size: 22px;
     color: #7e7e7e;
     background-color: #eaeaeb;
-    height: 320px;
-    width: 100%;
+    height: 220px;
+    width: 96%;
     text-align: left;
+    padding-left: 20px;
     position: relative;
     border-radius: 4px;
     margin-top: 30px;
 } 
-
-.center .box .enter2 p span{
-    position: relative;
-    top: 15%;
-    left: 5%;
-}
 
 .center .button li a{
     position: absolute;
@@ -709,7 +700,7 @@ footer .social .icon span.google:hover{
     text-decoration: none;
     padding: 16px 20px;
     box-shadow:  4px 6px 8px rgba(0, 0, 0, 0.7);
-    bottom: 240px;
+    bottom: 170px;
     left: 100px;
 }
 
@@ -800,16 +791,30 @@ footer .social .icon span.google:hover{
         width: 220px;
         top: 1%;
     }
+    .container7{
+        height: 750px;
+    }
     .container7 h2{
         padding-top: 0;
         height: 150px;
     }
     .container7 .icon{
+        display: block;
         max-width: 850px;
         padding: 0;
     }
     .center .box{
-        margin-left: 20px;
+        margin-left: 80px;
+        margin-top: 30px;
+    }
+    .center .box .enter input{
+        width: 253px;
+    }
+    .center .box .enter2 input{
+        position: absolute;
+        left: 65px;
+        height: 120px;
+        width: 530px;
     }
     footer .center .limit{
         padding-top: 100%;
@@ -819,6 +824,18 @@ footer .social .icon span.google:hover{
     }
     footer .center .limit .menu li{
         font-size: 14px;
+    }
+
+    footer .center .limit h2{
+        font-size: 20px;
+        color: rgb(126, 7, 100);
+        font-weight: 900;
+        margin-top: 30px;
+    }
+    footer .center .limit .menu li{
+        font-size: 16px;
+        color: #252527;
+        font-weight: 700; 
     }
 }
 
@@ -846,6 +863,15 @@ footer .social .icon span.google:hover{
         background-color: #923b57;
         display: block;
     }
+    header .menu{
+        display: block;
+        margin-top: -80px;
+    }
+    header img{
+        height: 50px;
+        width: 100px;
+        margin-top: -100px;
+    }
     .container2{
         height: 370px;
     }
@@ -863,18 +889,24 @@ footer .social .icon span.google:hover{
         font-size: 22px ;
     }
     .container3{
-        height: 2085px;
+        height: 1885px;
         width: 688px;
     }
     .container3 .information{
         display: block;
         text-align: center;
     }
+    .container3 .information .part_one img{
+        margin-top: 150px;
+    }
     .container3 .information .part_one{
-        margin-top: -250px;
+        margin-top: -100px;
     }
     .container3 .information .part_three{
         margin-top: -120px;
+    }
+    .container4{
+        height: 680px;
     }
     .container6{
         height: 800px;
@@ -882,29 +914,46 @@ footer .social .icon span.google:hover{
     .container6 .block{
         top: 50%;
     }
-    .center{
-        margin-top: 100px;
+    .container7 h2{
+        padding-top: 15%;
     }
     .center .box{
         width: 680px;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    .center .box .enter2 input{
+        margin-left: -22px;
     }
     footer{
-        height: 1800px;
+        height: 2180px;
     }
     footer .center .limit{
         display: block;
     }
     footer .center .limit h2{
-        font-family: 65px;
-        color: black;
+        font-size: 65px;
+        color: rgb(126, 7, 100);
         font-weight: 900;
+        margin-top: 30px;
     }
-    footer .center .limit .menu{
-        font-family: 40px;
+    footer .center .limit .menu li{
+        font-size: 40px;
         color: #252527;
         font-weight: 700; 
     }
+    footer .center .limit .part1 .menu span{
+        color: #725e64;
+    }
     footer p{
-        top: 780px;
-    }  
+        top: 1200px;
+    }
+    footer form{
+        margin-top: 20px;
+    }
+    footer .social{
+        margin-top: 50px;
+    }
+    
+
 }
