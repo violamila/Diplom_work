@@ -868,9 +868,9 @@ footer .social .icon span.google:hover{
         margin-top: -80px;
     }
     header img{
-        height: 50px;
-        width: 100px;
-        margin-top: -100px;
+        height: 100px;
+        width: 200px;
+        margin-top: -00px;
     }
     .container2{
         height: 370px;
@@ -953,7 +953,175 @@ footer .social .icon span.google:hover{
     }
     footer .social{
         margin-top: 50px;
-    }
-    
+    }   
+}
 
+@media(max-width: 576px){
+    header .center .burger{
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        background-color: #fff;
+        display: none;
+    }
+    header .center .burger i{
+        width: 20px;
+        height: 4px;
+        margin: 5px;
+        background-color: #923b57;
+        display: block;
+        display: none;
+    }
+    header{
+        height: 175px;
+    }
+    header .menu{
+        display: block;
+        margin-top: 0px;
+        line-height: 150%;
+    }
+    header .menu li a{
+        font-size: 25px;
+    }
+    header img{
+        height: 100px;
+        width: 200px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+    .container2{
+        height: 450px;
+    }
+    .container2 .block{
+        height: 210px;
+        width: 574px;
+        margin-top: 180px;
+        background-color: #0a1720;
+    }
+    .container2 .owl-theme .owl-nav{
+        top: 60%;
+    }
+    .container2 .block .big_text{
+        font-size: 40px;
+    }
+    .container2 .block .small_text{
+        font-size: 24px ;
+    }
+    .container3{
+        height: 1885px;
+        width: 575px;
+    }
+    .container3 .information{
+        display: block;
+        text-align: center;
+    }
+    .container3 .information .part_two .line{
+        left: 30%;
+    }
+    .container3 .information .part_one img{
+        margin-top: 150px;
+    }
+    .container3 .information .part_one{
+        margin-top: -100px;
+    }
+    .container3 .information .part_three{
+        margin-top: -120px;
+    }
+    .container3 .information .part_two p.title span{
+        font-size: 38px;
+    }
+    .container4{
+        height: 500px;
+    }
+    .container4 .top_4{
+        height: 165px;
+    }
+    .container4 .top_4 h2{
+        padding-top: 30px;
+        font-size: 35px;
+    }
+    .container4 .top_4 img{
+        margin-left: 32%;
+    }
+    .container4 .owl-nav button.owl-prev span, .container4 .owl-nav button.owl-next span{
+        position: absolute;
+        color: #fff;
+        background-color: #923b57;
+        padding: 2px 12px;
+        font-size: 40px;
+        top: 100%;
+        margin-left: 43%;
+    }
+    .container5 h2{
+        font-size: 46px;
+    }
+    .container5 img{
+        margin-left: 32%;
+    }
+    .container5 .center p{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+        line-height: 150%;
+    }
+    .container6{
+        height: 800px;
+    }
+    .container6 .block{
+        top: 38%;
+    }
+    .container7 h2{
+        padding-top: 15%;
+        margin-top: -80px;
+    }
+    .container7 .icon{
+        margin-top: -60px;
+    }
+    .center .box{
+        width: 500px;
+        margin-left: 0;
+        margin-bottom: 30px;
+        height: 550px;
+    }
+    .center .box .limit{
+        width: 515px;
+    }
+    .center .box .enter2 input{
+        left: 145px;
+        height: 80px;
+        width: 250px;
+    }
+    .center .button li a{
+        left: 180px;
+    }
+    footer{
+        height: 2000px;
+        margin-top: -500px;
+    }
+    footer .center .limit{
+        display: block;
+    }
+    footer .center .limit h2{
+        font-size: 65px;
+        color: rgb(126, 7, 100);
+        font-weight: 900;
+        margin-top: 30px;
+    }
+    footer .center .limit .menu li{
+        font-size: 40px;
+        color: #252527;
+        font-weight: 700; 
+    }
+    footer .center .limit .part1 .menu span{
+        color: #725e64;
+    }
+    footer p{
+        top: 1200px;
+    }
+    footer form{
+        margin-top: 20px;
+    }
+    footer .social{
+        margin-top: 50px;
+    }
 }
