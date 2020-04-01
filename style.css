@@ -990,12 +990,12 @@ footer .social .icon span.google:hover{
         margin-left: 20px;
     }
     .container2{
-        height: 450px;
+        height: 600px;
     }
     .container2 .block{
         height: 210px;
         width: 574px;
-        margin-top: 180px;
+        margin-top: 270px;
         background-color: #0a1720;
     }
     .container2 .owl-theme .owl-nav{
@@ -1031,7 +1031,7 @@ footer .social .icon span.google:hover{
         font-size: 38px;
     }
     .container4{
-        height: 500px;
+        height: 680px;
     }
     .container4 .top_4{
         height: 165px;
@@ -1042,6 +1042,9 @@ footer .social .icon span.google:hover{
     }
     .container4 .top_4 img{
         margin-left: 32%;
+    }
+    .owl-carousel .owl-item img{
+        height: 405px;
     }
     .container4 .owl-nav button.owl-prev span, .container4 .owl-nav button.owl-next span{
         position: absolute;
@@ -1095,20 +1098,20 @@ footer .social .icon span.google:hover{
         left: 180px;
     }
     footer{
-        height: 2000px;
+        height: 1930px;
         margin-top: -500px;
     }
     footer .center .limit{
         display: block;
     }
     footer .center .limit h2{
-        font-size: 65px;
+        font-size: 40px;
         color: rgb(126, 7, 100);
         font-weight: 900;
         margin-top: 30px;
     }
     footer .center .limit .menu li{
-        font-size: 40px;
+        font-size: 30px;
         color: #252527;
         font-weight: 700; 
     }
@@ -1116,7 +1119,7 @@ footer .social .icon span.google:hover{
         color: #725e64;
     }
     footer p{
-        top: 1200px;
+        top: 1100px;
     }
     footer form{
         margin-top: 20px;
