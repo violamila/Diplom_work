@@ -111,6 +111,7 @@ header .menu li a:hover{
 
 .container2 .owl-carousel owl-theme{
     height: 855px;
+    background-size: cover;
 }
 
 .container2 .owl-theme .owl-nav{
@@ -290,7 +291,7 @@ header .menu li a:hover{
 }
 
 .container4{
-    height: 910px;
+    height: 1150px;
     width: 100%;
     background-color: #252527;
 }
@@ -677,7 +678,7 @@ footer .social .icon span.google:hover{
     margin-top: 30px;
 }
 
-.center .box .enter2 input{
+.center .box .enter2 textarea{
     font-size: 22px;
     color: #7e7e7e;
     background-color: #eaeaeb;
@@ -688,6 +689,7 @@ footer .social .icon span.google:hover{
     position: relative;
     border-radius: 4px;
     margin-top: 30px;
+    
 } 
 
 .center .button li a{
@@ -810,7 +812,7 @@ footer .social .icon span.google:hover{
     .center .box .enter input{
         width: 253px;
     }
-    .center .box .enter2 input{
+    .center .box .enter2 textarea{
         position: absolute;
         left: 65px;
         height: 120px;
@@ -855,6 +857,7 @@ footer .social .icon span.google:hover{
         height: 30px;
         width: 30px;
         background-color: #fff;
+        display: none;
     }
     header .center .burger i{
         width: 20px;
@@ -865,12 +868,13 @@ footer .social .icon span.google:hover{
     }
     header .menu{
         display: block;
-        margin-top: -80px;
+        margin-top: 0px;
     }
     header img{
         height: 100px;
         width: 200px;
-        margin-top: -00px;
+        margin-top: 0px;
+        margin-left: 20px;
     }
     .container2{
         height: 370px;
@@ -905,8 +909,23 @@ footer .social .icon span.google:hover{
     .container3 .information .part_three{
         margin-top: -120px;
     }
+    .container3 .information .part_two .line{
+        left: 30%;
+    }
     .container4{
-        height: 680px;
+        height: 650px;
+    }
+    .container4 .top_4 img{
+        margin-left: 35%;
+    }
+    .container4 .owl-nav button.owl-prev span, .container4 .owl-nav button.owl-next span{
+        position: absolute;
+        color: #fff;
+        background-color: #923b57;
+        padding: 2px 12px;
+        font-size: 40px;
+        top: 105%;
+        margin-left: 45%;
     }
     .container6{
         height: 800px;
@@ -922,7 +941,7 @@ footer .social .icon span.google:hover{
         margin-left: 0;
         margin-bottom: 30px;
     }
-    .center .box .enter2 input{
+    .center .box .enter2 textarea{
         margin-left: -22px;
     }
     footer{
@@ -932,13 +951,13 @@ footer .social .icon span.google:hover{
         display: block;
     }
     footer .center .limit h2{
-        font-size: 65px;
+        font-size: 35px;
         color: rgb(126, 7, 100);
         font-weight: 900;
         margin-top: 30px;
     }
     footer .center .limit .menu li{
-        font-size: 40px;
+        font-size: 24px;
         color: #252527;
         font-weight: 700; 
     }
@@ -946,7 +965,7 @@ footer .social .icon span.google:hover{
         color: #725e64;
     }
     footer p{
-        top: 1200px;
+        top: 1100px;
     }
     footer form{
         margin-top: 20px;
@@ -1043,7 +1062,7 @@ footer .social .icon span.google:hover{
     .container4 .top_4 img{
         margin-left: 32%;
     }
-    .owl-carousel .owl-item img{
+    .container4 .owl-carousel .owl-item img{
         height: 405px;
     }
     .container4 .owl-nav button.owl-prev span, .container4 .owl-nav button.owl-next span{
@@ -1089,7 +1108,7 @@ footer .social .icon span.google:hover{
     .center .box .limit{
         width: 515px;
     }
-    .center .box .enter2 input{
+    .center .box .enter2 textarea{
         left: 145px;
         height: 80px;
         width: 250px;
@@ -1126,5 +1145,532 @@ footer .social .icon span.google:hover{
     }
     footer .social{
         margin-top: 50px;
+    }
+}
+
+@media(max-width: 414px){
+    header{
+        height: 175px;
+    }
+    header .menu{
+        display: block;
+        margin-top: 0px;
+        line-height: 150%;
+    }
+    header .menu li a{
+        font-size: 25px;
+    }
+    header img{
+        height: 100px;
+        width: 200px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+    .container2{
+        height: 600px;
+    }
+    
+    .container2 .block{
+        height: 210px;
+        width: 574px;
+        margin-top: 270px;
+        background-color: #0a1720;
+    }
+    .container2 .owl-theme .owl-nav{
+        top: 65%;
+        left: 65%;
+    }
+    .container2 .block .big_text{
+        font-size: 26px;
+        margin-top: 18px;
+        padding-left: 170px;
+    }
+    .container2 .block .small_text{
+        font-size: 20px;
+        padding-left: 170px;
+    }
+    .container3{
+        height: 1885px;
+        width: 414px;
+    }
+    .container3 .information{
+        display: block;
+        text-align: center;
+    }
+    .container3 .information .part_two .line{
+        left: 15%;
+    }
+    .container4{
+        height: 630px;
+    }
+    .container4 .top_4{
+        height: 135px;
+    }
+    .container4 .top_4 h2{
+        padding-top: 30px;
+        font-size: 35px;
+    }
+    .container4 .top_4 img{
+        margin-left: 26%;
+    }
+    .container4 .owl-carousel .owl-item img{
+        height: 405px;
+    }
+    .container4 .owl-nav button.owl-prev span, .container4 .owl-nav button.owl-next span{
+        position: absolute;
+        color: #fff;
+        background-color: #923b57;
+        padding: 2px 8px;
+        font-size: 36px;
+        top: 100%;
+        margin-left: 40%;
+    }
+    .container5{
+        max-width: 414px;
+    }
+    .container5 h2{
+        font-size: 38px;
+    }
+    .container5 img{
+        margin-left: 22%;
+    }
+    .container5 .center p{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+        line-height: 150%;
+    }
+    .container6{
+        height: 750px;
+        width: 414px;
+    }
+    .container6 .block{
+        top: 26%;
+        max-width: 414px;
+    }
+    .container6 .block img{
+        height: 150px;
+        width: 220px;
+    }
+    .container6 .block h2{
+        font-size: 36px;
+    }
+    .container6 .button li a{
+        bottom: 40px;
+    }
+    .container7 h2{
+        padding-top: 15%;
+        margin-top: -80px;
+    }
+    .container7 .icon{
+        margin-top: -60px;
+    }
+    .center .box{
+        width: 350px;
+        margin-left: 0;
+        margin-bottom: 30px;
+        height: 550px;
+    }
+    .center .box .limit{
+        width: 320px;
+    }
+    .center .box .enter2 textarea{
+        left: 60px;
+        height: 80px;
+        width: 250px;
+    }
+    .center .button li a{
+        left: 50px;
+    }
+    footer{
+        height: 1800px;
+        margin-top: -300px;
+    }
+    footer .center .limit{
+        display: block;
+    }
+    footer .center .limit h2{
+        font-size: 40px;
+        color: rgb(126, 7, 100);
+        font-weight: 900;
+        margin-top: 30px;
+    }
+    footer .center .limit .menu li{
+        font-size: 30px;
+        color: #252527;
+        font-weight: 700; 
+    }
+    footer .center .limit .part1 .menu span{
+        color: #725e64;
+    }
+    footer p{
+        top: 1100px;
+    }
+    footer form{
+        margin-top: 20px;
+    }
+    footer .social{
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 375px){
+    header{
+        height: 175px;
+    }
+    header .center .burger{
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        background-color: #fff;
+        
+    }
+    header .center .burger i{
+        width: 20px;
+        height: 4px;
+        margin: 5px;
+        background-color: #923b57;
+        display: block;
+        
+    }
+    header .menu{
+        display: block;
+        margin-top: 0px;
+        line-height: 150%;
+    }
+    header .menu li a{
+        font-size: 15px;
+    }
+    header img{
+        height: 80px;
+        width: 150px;
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+    .container2{
+        height: 600px;
+    }
+    .container2 .block{
+        height: 160px;
+        width: 375px;
+        margin-top: 270px;
+        background-color: #0a1720;
+    }
+    .container2 .owl-theme .owl-nav{
+        top: 65%;
+        left: 65%;
+    }
+    .container2 .block .big_text{
+        font-size: 22px;
+        margin-top: 18px;
+        padding-left: 15px;
+    }
+    .container2 .block .small_text{
+        font-size: 18px;
+        padding-left: 15px;
+    }
+    .container3{
+        height: 1885px;
+        width: 375px;
+        margin-top: -200px;
+    }
+    .container3 .information .part_two .line{
+        left: 15%;
+    }
+    .container4{
+        height: 630px;
+    }
+    .container4 .owl-nav button.owl-prev span, .container4 .owl-nav button.owl-next span{
+        font-size: 28px;
+    }
+    .container5{
+        max-width: 375px;
+    }
+    .container5 h2{
+        font-size: 38px;
+    }
+    .container6{
+        height: 500px;
+        width: 375px;
+    }
+    .container6 .block{
+        top: 26%;
+        max-width: 375px;
+    }
+    .container6 .block img{
+        height: 70px;
+        width: 110px;
+    }
+    .container6 .block h2{
+        font-size: 40px;
+        padding-top: 30px;
+    }
+    .container6 .block .big_text{
+        padding-top: 110px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .container6 .block .small_text{
+        padding-top: 210px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .container6 .button li a{
+        bottom: 150px;
+    }
+    .container7{
+        max-width: 375px;
+        height: 700px;
+        z-index: 3;
+    }
+    .container7 h2{
+        margin-top: 70px;
+        font-size: 22px;
+    }
+    .container7 .icon{
+        margin-top: -60px;
+    }
+    .center .box{
+        width: 330px;
+        margin-left: 0;
+        margin-bottom: 30px;
+        height: 550px;
+    }
+    .center .box .limit{
+        width: 310px;
+    }
+    .center .box .enter2 textarea{
+        left: 50px;
+        height: 80px;
+        width: 250px;
+    }
+    .center .button li a{
+        left: 50px;
+    }
+    footer{
+        height: 1750px;
+        margin-top: -300px;
+    }
+}
+
+@media(max-width: 360px){
+    .container2{
+        height: 600px;
+    }
+    .container2 .owl-theme .owl-nav{
+        top: 75%;
+        left: 85%;
+        height: 40px;
+        width: 50px;
+    }
+    .container2 .owl-nav button.owl-prev span, .container2 .owl-nav button.owl-next span{
+        font-size: 25px;
+    }
+    .container2 .block .big_text{
+        padding-left: 35px;
+    }
+    .container2 .block .small_text{
+        padding-left: 35px;
+    }
+    .container3{
+        height: 1685px;
+        width: 360px;
+        margin-top: -200px;
+    }
+    .container3 .information .part_one p, .container3 .information .part_three p{
+        font-size: 50px;
+    }
+    .container3 .information .part_one p span, .container3 .information .part_three p span{
+        font-size: 20px;
+    }
+    .container3 .information .part_two p.title span{
+        font-size: 28px;
+    }
+    .container3 .information .part_two p.title{
+        font-size: 22px;
+    }
+    .container3 .information .part_two p.Invitation{
+        font-size: 48px;
+    }
+    .container3 .information .part_two .line{
+        left: 20%;
+        width: 180px;
+    }
+    .container3 .part_two h4{
+        font-size: 32px;
+    }
+    .container3 .part_two h4.date{
+        font-size: 36px;
+    }
+    .container3 .part_two .button li a{
+        font-size: 30px;
+        padding: 10px 25px;
+    }
+    .container5{
+        max-width: 360px;
+    }
+    .container5 h2{
+        font-size: 38px;
+    }
+    .container6{
+        height: 500px;
+        width: 360px;
+    }
+    .container6 .block{
+        top: 26%;
+        max-width: 360px;
+    }
+    .container6 .block img{
+        height: 70px;
+        width: 110px;
+    }
+    .container6 .block h2{
+        font-size: 40px;
+        padding-top: 30px;
+    }
+    .container6 .block .big_text{
+        padding-top: 110px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .container6 .block .small_text{
+        padding-top: 210px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .container6 .button li a{
+        bottom: 150px;
+    }
+    .container7{
+        max-width: 360px;
+        height: 700px;
+        z-index: 3;
+    }
+    .container7 h2{
+        margin-top: 70px;
+        font-size: 22px;
+    }
+    .container7 .icon{
+        margin-top: -60px;
+    }
+    .center .box{
+        width: 330px;
+        margin-left: 0;
+        margin-bottom: 30px;
+        height: 550px;
+    }
+    .center .box .limit{
+        width: 310px;
+    }
+    .center .box .enter2 textarea{
+        left: 50px;
+        height: 80px;
+        width: 250px;
+    }
+    .center .button li a{
+        left: 50px;
+    }
+    footer{
+        height: 1750px;
+        margin-top: -300px;
+    }
+}
+
+@media(max-width: 320px){
+    .container2{
+        height: 600px;
+    }
+    .container2 .owl-theme .owl-nav{
+        top: 75%;
+        left: 80%;
+        height: 40px;
+        width: 50px;
+    }
+    .container2 .block .big_text{
+        padding-left: 65px;
+    }
+    .container2 .block .small_text{
+        padding-left: 65px;
+    }
+    .container3{
+        height: 1500px;
+        width: 320px; 
+    }
+    .container3 .information .part_one img, .container3 .information .part_three img {
+        height: 160px;
+        width: 160px;
+    }
+    .container4{
+        width: 320px;
+    }
+    .container4 .top_4 img{
+        margin-left: 20%;
+    }
+    .container4 .owl-nav button.owl-prev span, .container4 .owl-nav button.owl-next span{
+        font-size: 20px;
+    }
+    .container5{
+        max-width: 320px;
+    }
+    .container5 h2{
+        font-size: 30px;
+    }
+    .container5 .center p{
+        font-size: 18px;
+    }
+    .container6{
+        height: 430px;
+        width: 320px;
+    }
+    .container6 .block{
+        top: 26%;
+        max-width: 320px;
+    }
+    .container6 .button li a{
+        bottom: 120px;
+    }
+    .container7{
+        max-width: 320px;
+        height: 700px;
+        z-index: 3;
+    }
+    .container7 h2{
+        margin-top: 130px;
+        font-size: 22px;
+    }
+    .center .box{
+        width: 290px;
+        margin-left: 0;
+        margin-bottom: 30px;
+        height: 450px;
+    }
+    .center .box .limit{
+        width: 230px;
+    }
+    .center .box .enter input{
+        width: 185px;
+        height: 50px;
+
+    }
+    .center .box .enter2 textarea{
+        left: 68px;
+        height: 50px;
+        width: 185px;
+    }
+    .center .button li a{
+        left: 50px;
+    }
+    footer{
+        height: 1700px;
+        margin-top: -300px;
+    }
+    footer .center .limit h2{
+        font-size: 30px;
+    }
+    footer .center .limit .menu li{
+        font-size: 24px;
+    }
+    footer form input{
+        padding: 0 50px 0 10px;
     }
 }
