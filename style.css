@@ -996,9 +996,12 @@ footer .social .icon span.google:hover{
         height: 175px;
     }
     header .menu{
-        display: block;
+        display: none;
         margin-top: 0px;
         line-height: 150%;
+    }
+    header .show{
+        display: block;
     }
     header .menu li a{
         font-size: 25px;
