@@ -982,6 +982,7 @@ footer .social .icon span.google:hover{
         width: 30px;
         background-color: #fff;
         display: none;
+        margin-right: 30px;
     }
     header .center .burger i{
         width: 20px;
@@ -1014,7 +1015,7 @@ footer .social .icon span.google:hover{
     .container2 .block{
         height: 210px;
         width: 574px;
-        margin-top: 270px;
+        margin-top: 150px;
         background-color: #0a1720;
     }
     .container2 .owl-theme .owl-nav{
@@ -1169,11 +1170,10 @@ footer .social .icon span.google:hover{
     .container2{
         height: 600px;
     }
-    
     .container2 .block{
         height: 210px;
         width: 574px;
-        margin-top: 270px;
+        margin-top: 96px;
         background-color: #0a1720;
     }
     .container2 .owl-theme .owl-nav{
@@ -1215,6 +1215,7 @@ footer .social .icon span.google:hover{
     }
     .container4 .owl-carousel .owl-item img{
         height: 405px;
+        object-fit: cover;
     }
     .container4 .owl-nav button.owl-prev span, .container4 .owl-nav button.owl-next span{
         position: absolute;
@@ -1334,9 +1335,12 @@ footer .social .icon span.google:hover{
         
     }
     header .menu{
-        display: block;
+        display: none;
         margin-top: 0px;
         line-height: 150%;
+    }
+    header .swow{
+        display: block;
     }
     header .menu li a{
         font-size: 15px;
@@ -1353,7 +1357,7 @@ footer .social .icon span.google:hover{
     .container2 .block{
         height: 160px;
         width: 375px;
-        margin-top: 270px;
+        margin-top: 80px;
         background-color: #0a1720;
     }
     .container2 .owl-theme .owl-nav{
@@ -1372,7 +1376,7 @@ footer .social .icon span.google:hover{
     .container3{
         height: 1885px;
         width: 375px;
-        margin-top: -200px;
+        margin-top: -300px;
     }
     .container3 .information .part_two .line{
         left: 15%;
@@ -1458,7 +1462,7 @@ footer .social .icon span.google:hover{
         height: 600px;
     }
     .container2 .owl-theme .owl-nav{
-        top: 75%;
+        top: 68%;
         left: 85%;
         height: 40px;
         width: 50px;
@@ -1472,10 +1476,13 @@ footer .social .icon span.google:hover{
     .container2 .block .small_text{
         padding-left: 35px;
     }
+    .container2 .block{
+        margin-top: 68px;
+    }
     .container3{
         height: 1685px;
         width: 360px;
-        margin-top: -200px;
+        margin-top: -380px;
     }
     .container3 .information .part_one p, .container3 .information .part_three p{
         font-size: 50px;
@@ -1581,10 +1588,13 @@ footer .social .icon span.google:hover{
         height: 600px;
     }
     .container2 .owl-theme .owl-nav{
-        top: 75%;
+        top: 60%;
         left: 80%;
         height: 40px;
         width: 50px;
+    }
+    .container2 .block {
+        margin-top: 54px;
     }
     .container2 .block .big_text{
         padding-left: 65px;
@@ -1607,7 +1617,7 @@ footer .social .icon span.google:hover{
         margin-left: 20%;
     }
     .container4 .owl-nav button.owl-prev span, .container4 .owl-nav button.owl-next span{
-        font-size: 20px;
+        font-size: 18px;
     }
     .container5{
         max-width: 320px;
